@@ -1,0 +1,54 @@
+.detailed_card{
+    width:40%;
+    height: 400px;
+    background-color: #252525;
+    margin-top: 75px;
+    margin-left: 150px;
+    display: flex;
+}
+
+
+.project-preview{
+    display: inline-block;
+    margin: 0px;
+    width:50%;
+    height: 400px;
+    background-color: #2E2E2E;
+    text-align: center;
+}
+.project-description{
+    display: inline-block;
+    margin: 0px;
+    width:50%;
+    height: 400px;
+    text-align: center;
+}
+.techCard-small{
+    display: inline-block;
+    width:20%;
+    text-align: center;
+    margin: auto;   
+ img {
+        width: 100%;
+    }
+    p {
+        margin: 0px;
+        
+    }
+}
+
+.project-description button {
+    cursor: pointer;
+    position: relative;
+    bottom: -50px;
+    display: block;
+    color: #E8E8E8;
+    border-radius: 2px;
+    border: none;
+    margin:auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color:#121212;
+    width:65%;
+    padding: 5px 0px;
+}

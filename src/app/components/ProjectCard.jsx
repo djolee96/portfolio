@@ -4,9 +4,9 @@ import React from "react"
 class ProjectCard extends React.Component {
 
     render() {
-        let { imgUrl, title } = this.props
+        let { imgUrl, title, onClick } = this.props
         return (
-            <div className="projectCard">
+            <div className="projectCard" onClick={onClick}>
                 <div className="imgContainer">
                     <img src={imgUrl} alt="projectPicture" />
                 </div>
