@@ -1,0 +1,16 @@
+.App{
+    width:100%;
+    height: 100vh;
+    background-color: #121212;
+    color:white;
+}
+main{
+    height: 100vh;
+}
+
+
+
+@import "header";
+@import "content";
+@import "about";
+@import "footer"

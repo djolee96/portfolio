@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 20px;
+    justify-content: flex-end;;
+}
+.icons {
+    margin:13px 80px;
+}
+.icons img{
+    width: 35px;
+    background-color:white;
+    border-radius: 8px;
+}
+.icons span {
+    padding-right:5px;
+}
+
+.contact h4 {
+    margin:0px;
+}
+.contact p {
+    margin:0px;
+}

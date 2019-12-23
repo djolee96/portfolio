@@ -1,0 +1,57 @@
+.sideMenu{
+    width: 50px;
+    height: 100vh;
+    background-color:#272727;
+    display: inline-block;
+    margin-top: -61px;
+    position: absolute;
+}
+
+.sideMenu div {
+    display: flex;
+    flex-direction:column;
+    width:100%;
+    height: 50vh;
+    justify-content:center;
+    margin:auto;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size:16px;
+    box-sizing: border-box;
+}
+.info{
+    padding-top: 225px;
+}
+.sideMenu div:hover{
+    background-color:#121212;
+}
+
+.active{
+    background-color:#121212;
+}
+.aboutInfo{
+    margin-top:100px;
+    margin-left: 170px;
+    width:35%;
+}
+
+.aboutTech{
+    margin-top:100px;
+    margin-left: 170px;
+    width:35%;
+}
+.aboutTech h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.techCard{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+.show{
+    display: inline-block;
+}
+.hide{
+    display: none;
+}
