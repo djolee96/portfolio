@@ -4,7 +4,7 @@ class HireMe extends React.Component {
 
     render() {
         return (
-            <p>hi</p>
+            <div>hi</div>
         )
     }
 }

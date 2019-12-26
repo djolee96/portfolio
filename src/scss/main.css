@@ -93,11 +93,11 @@ nav {
 
 .sideMenu div:hover {
   cursor: pointer;
-  background-color: #121212;
+  background-color: #D80629;
 }
 
 .active {
-  background-color: #121212;
+  background-color: #D80629;
 }
 
 .aboutInfo {
@@ -158,10 +158,12 @@ nav {
 }
 
 .contact h4 {
+  cursor: default;
   margin: 0px;
 }
 
 .contact p {
+  cursor: default;
   margin: 0px;
 }
 
@@ -183,8 +185,7 @@ nav {
 
 .projectCard:hover {
   cursor: pointer;
-  position: relative;
-  width: 23%;
+  background-color: #383838;
 }
 
 .imgContainer {
@@ -244,7 +245,7 @@ nav {
   margin: 0px;
 }
 
-.project-description button {
+.project-description a {
   cursor: pointer;
   position: relative;
   bottom: -50px;
@@ -258,5 +259,6 @@ nav {
   background-color: #121212;
   width: 65%;
   padding: 5px 0px;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -12,8 +12,8 @@ class Footer extends React.Component {
                     <p>Email: milan.djordjevic@protonmail.com</p>
                 </div>
                 <div className="icons">
-                    <span> <img src={linkedin} alt="li" /></span>
-                    <span> <img src={github} alt="github" /></span>
+                    <span> <a href="https://www.linkedin.com/in/milan-%C4%91or%C4%91evi%C4%8704/" rel="noopener noreferrer" target="_blank"><img src={linkedin} alt="li" /></a></span>
+                    <span><a href="https://github.com/djolee96" rel="noopener noreferrer" target="_blank"> <img src={github} alt="github" /></a></span>
                 </div>
             </div>
         )

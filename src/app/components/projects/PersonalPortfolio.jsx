@@ -25,8 +25,8 @@ class PersonalPortfolio extends React.Component {
                             <p>React</p>
                         </div>
                     </div>
-                    <button>View Live</button>
-                    <button>View Code</button>
+                    <a href="https://github.com/djolee96/portfolio" target="_blank" rel="noopener noreferrer" >View Live</a>
+                    <a href="https://github.com/djolee96/portfolio" target="_blank" rel="noopener noreferrer" >View Code</a>
 
 
                 </div>
