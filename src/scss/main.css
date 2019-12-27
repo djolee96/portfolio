@@ -261,4 +261,73 @@ nav {
   padding: 5px 0px;
   text-decoration: none;
 }
+
+.hire-me {
+  width: 40%;
+  height: 375px;
+  background-color: #272727;
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hire-me-button {
+  width: 50%;
+  margin: 0px;
+  background-color: #272727;
+  border: none;
+  color: #D80629;
+  font-size: 16px;
+  padding: 8px 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.completed {
+  color: #57A85C;
+}
+
+.hire-me-button:focus {
+  outline: none;
+}
+
+.personalInput {
+  width: 70%;
+  height: 2em;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  background-color: #1E1E1E;
+  color: white;
+}
+
+.form-button {
+  background-color: #121212;
+  color: white;
+  width: 30%;
+  display: block;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: 72px;
+  padding: 5px 0px 5px 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.projectDetails p {
+  font-size: 1em;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.projectDropdown {
+  width: 50%;
+  height: 2em;
+  background-color: #1E1E1E;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
 /*# sourceMappingURL=main.css.map */

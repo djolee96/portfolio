@@ -10,7 +10,7 @@ class PersonalPortfolio extends React.Component {
                     <div className="imgContainer">
                         <img src={projectOne} alt="portfolio" />
                     </div>
-                    <h1>Title</h1>
+                    <h1>Personal Portfolio</h1>
                     <h3>Description</h3>
                     <p>Lorem ipsum dolor sit amet.</p>
 
