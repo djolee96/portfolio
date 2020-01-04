@@ -282,6 +282,7 @@ nav {
   padding: 8px 0px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  cursor: pointer;
 }
 
 .completed {

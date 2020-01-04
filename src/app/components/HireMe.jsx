@@ -75,13 +75,15 @@ class HireMe extends React.Component {
             <button className="form-button">Send</button>
         </div>
 
-        return (<div>
-            <h1>Considering hiring me, fill the questionnaire.</h1>
+        return (<div >
+            <h1>Considering hiring me,fill the questionnaire.</h1>
             <p>Requesting an estimate for a project only takes a few minutes of your time and costs absolutely nothing.</p>
             <div className="hire-me">
-                <button className="hire-me-button personal" onClick={() => this.setState({ view: true })}>Personal Info</button>
-                <button className="hire-me-button project" onClick={() => this.setState({ view: false })}>Project Details</button>
-                {this.state.view ? personal : project}
+                <form onSubmit={() => { console.log(this.state); }}>
+                    <button className="hire-me-button personal" onClick={() => this.setState({ view: true })}>Personal Info</button>
+                    <button className="hire-me-button project" onClick={() => this.setState({ view: false })}>Project Details</button>
+                    {this.state.view ? personal : project}
+                </form>
             </div >
         </div>
         )
