@@ -75,7 +75,7 @@ class HireMe extends React.Component {
             <button className="form-button">Send</button>
         </div>
 
-        return (<div >
+        return (<div>
             <h1>Considering hiring me,fill the questionnaire.</h1>
             <p>Requesting an estimate for a project only takes a few minutes of your time and costs absolutely nothing.</p>
             <div className="hire-me">
