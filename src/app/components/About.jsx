@@ -1,5 +1,6 @@
 import React from "react"
 import TechCard from "./TechCard"
+import { Link } from "react-router-dom"
 
 
 class About extends React.Component {
@@ -33,7 +34,12 @@ class About extends React.Component {
             </div>
             <div className="aboutInfo show">
                 <h1>Info</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate molestias accusantium fugit ducimus molestiae, qui voluptas doloremque provident eligendi ipsam? Voluptate doloremque adipisci, hic modi expedita recusandae aliquam minima delectus!</p>
+                <p>Milan Đorđević is freelance Front-End Developer from Pančevo,Serbia.
+                    <br />
+                    Open for new Projects.
+
+                    For more info about projects i done in past you can look up <Link to="projects" >here</Link>
+                </p>
             </div>
             <div className="aboutTech hide">
                 <h1>MY SKILLSET</h1>
