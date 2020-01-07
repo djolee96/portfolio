@@ -3,7 +3,7 @@ import React from "react"
 
 class Content extends React.Component {
     componentDidMount() {
-        if (this.props.match.url !== "/about") {
+        if (this.props.match.url === "/") {
             document.querySelector(".footer").classList.remove("mobile")
         }
     }
