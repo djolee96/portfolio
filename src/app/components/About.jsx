@@ -26,6 +26,11 @@ class About extends React.Component {
         document.querySelector(".aboutTech").classList.remove("hide")
         document.querySelector(".aboutTech").classList.add("show")
     }
+    componentDidMount() {
+        if (this.props.match.url === "/about") {
+            document.querySelector(".footer").classList.add("mobile")
+        }
+    }
     render() {
         return (<div>
             <div className="sideMenu">

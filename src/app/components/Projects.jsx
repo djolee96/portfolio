@@ -4,7 +4,11 @@ import projectOne from "../../images/projectOne.png"
 
 
 class Projects extends React.Component {
-
+    componentDidMount() {
+        if (this.props.match.url !== "/about") {
+            document.querySelector(".footer").classList.remove("mobile")
+        }
+    }
     personalPortfolio = () => {
         this.props.history.push("projects/personal_portfolio")
     }

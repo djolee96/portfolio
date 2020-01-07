@@ -9,6 +9,7 @@
     margin:13px 80px;
 }
 .icons img{
+    cursor: pointer;
     width: 35px;
     background-color:white;
     border-radius: 8px;
@@ -24,4 +25,50 @@
 .contact p {
     cursor: default;
     margin:0px;
+}
+
+@media(max-width:769px){
+    .contact h4 {
+        font-size: 1em;
+    }
+    .contact p {
+        font-size: 0.9em;
+    }
+    .icons {
+        margin: 13px 50px;
+    }
+}
+@media(max-width:426px){
+    .mobile{
+        display: none;
+    }
+    .contact h4 {
+        font-size: 1em;
+    }
+    .contact p {
+        font-size: 0.9em;
+    }
+    .icons {
+        margin: 20px 30px;
+    }
+    .footer{
+        bottom: 0px;
+    }
+}
+@media(max-width:376px){
+    .icons {
+        margin: 20px 12px;
+    }
+}
+
+@media(max-width:321px){
+    .icons img {
+        width: 30px;
+    }
+    .icons {
+        margin: 15px 8px;
+    }
+    .contact{
+        margin-left: 15px;
+    }
 }

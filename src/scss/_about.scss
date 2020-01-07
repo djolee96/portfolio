@@ -63,3 +63,71 @@
 .hide{
     display: none;
 }
+
+@media(max-width:768px){
+    .aboutInfo {
+        margin-top: 95px;
+        margin-left: 140px;
+        width: 41%;
+    }
+    .aboutTech {
+        margin-top: 55px;
+        margin-left: 125px;
+        width: 40%;
+    }
+    .aboutTech h1 {
+       font-size: 1.5em;
+    }
+    .techCard p {
+        margin-top:5px;
+    }
+}
+@media(max-width:426px){
+    .sideMenu{
+        width: 100%;
+        height: 35px;
+        background-color:#272727;
+        display:block;
+        margin: 0px;
+        position: absolute;
+      bottom: 0px;
+    }
+    .sideMenu div {
+        display:inline-flex;
+        flex-direction:row;
+        width:50%;
+        height: 35px;
+        justify-content:center;
+        margin:0px 0px;
+        writing-mode: horizontal-tb;
+        text-orientation: sideways;
+        font-size:16px;
+        box-sizing: border-box;
+    }
+    .info{
+        padding-top: 0px;
+        display: inline-block;
+        margin: 0px;
+        font-size: 1.3em;
+    }
+    .tech{
+        display: inline-block;
+        margin: 0px;
+
+    }
+    .aboutInfo{
+        margin-top: 50px;
+        margin-left: 50px;
+        width: 81%;
+        a{
+            text-decoration: none;
+            color: #84C9FB;
+        }
+    }
+    .aboutTech {
+        margin-top: 40px;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}

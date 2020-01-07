@@ -40,6 +40,12 @@ nav {
   border-bottom: 2px solid #84C9FB;
 }
 
+@media (max-width: 321px) {
+  .header {
+    padding: 20px;
+  }
+}
+
 .content {
   width: 40%;
   margin: 140px 170px;
@@ -53,6 +59,81 @@ nav {
 .content h2 {
   margin: 0px;
   font-size: 2.5em;
+}
+
+@media (max-width: 1024px) {
+  .content {
+    width: 40%;
+    margin: 135px 100px;
+  }
+  .content h1 {
+    margin: 0px;
+    font-size: 3em;
+  }
+  .content h2 {
+    margin: 0px;
+    font-size: 2.0em;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 45%;
+    margin: 130px 60px;
+  }
+  .content h1 {
+    margin: 0px;
+    font-size: 3em;
+  }
+  .content h2 {
+    margin: 0px;
+    font-size: 2.0em;
+  }
+}
+
+@media (max-width: 425px) {
+  .content {
+    width: 60%;
+    margin: 130px 60px;
+  }
+  .content h1 {
+    margin: 0px;
+    font-size: 3em;
+  }
+  .content h2 {
+    margin: 0px;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 375px) {
+  .content {
+    width: 65%;
+    margin: 130px 60px;
+  }
+  .content h1 {
+    margin: 0px;
+    font-size: 3em;
+  }
+  .content h2 {
+    margin: 0px;
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 320px) {
+  .content {
+    width: 70%;
+    margin: 95px 40px;
+  }
+  .content h1 {
+    margin: 0px;
+    font-size: 2.5em;
+  }
+  .content h2 {
+    margin: 0px;
+    font-size: 1.3em;
+  }
 }
 
 .sideMenu {
@@ -140,6 +221,84 @@ nav {
   display: none;
 }
 
+@media (max-width: 768px) {
+  .aboutInfo {
+    margin-top: 95px;
+    margin-left: 140px;
+    width: 41%;
+  }
+  .aboutTech {
+    margin-top: 55px;
+    margin-left: 125px;
+    width: 40%;
+  }
+  .aboutTech h1 {
+    font-size: 1.5em;
+  }
+  .techCard p {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 426px) {
+  .sideMenu {
+    width: 100%;
+    height: 35px;
+    background-color: #272727;
+    display: block;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+  }
+  .sideMenu div {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 50%;
+    height: 35px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0px 0px;
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    font-size: 16px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .info {
+    padding-top: 0px;
+    display: inline-block;
+    margin: 0px;
+    font-size: 1.3em;
+  }
+  .tech {
+    display: inline-block;
+    margin: 0px;
+  }
+  .aboutInfo {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 81%;
+  }
+  .aboutInfo a {
+    text-decoration: none;
+    color: #84C9FB;
+  }
+  .aboutTech {
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+  }
+}
+
 .footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -157,6 +316,7 @@ nav {
 }
 
 .icons img {
+  cursor: pointer;
   width: 35px;
   background-color: white;
   border-radius: 8px;
@@ -174,6 +334,54 @@ nav {
 .contact p {
   cursor: default;
   margin: 0px;
+}
+
+@media (max-width: 769px) {
+  .contact h4 {
+    font-size: 1em;
+  }
+  .contact p {
+    font-size: 0.9em;
+  }
+  .icons {
+    margin: 13px 50px;
+  }
+}
+
+@media (max-width: 426px) {
+  .mobile {
+    display: none;
+  }
+  .contact h4 {
+    font-size: 1em;
+  }
+  .contact p {
+    font-size: 0.9em;
+  }
+  .icons {
+    margin: 20px 30px;
+  }
+  .footer {
+    bottom: 0px;
+  }
+}
+
+@media (max-width: 376px) {
+  .icons {
+    margin: 20px 12px;
+  }
+}
+
+@media (max-width: 321px) {
+  .icons img {
+    width: 30px;
+  }
+  .icons {
+    margin: 15px 8px;
+  }
+  .contact {
+    margin-left: 15px;
+  }
 }
 
 .projects {
@@ -209,6 +417,40 @@ nav {
 .projectCard h1 {
   margin: 0px 0px 10px 0px;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .projectCard h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectCard h1 {
+    font-size: 1.3em;
+  }
+  .projectCard {
+    width: 35%;
+  }
+}
+
+@media (max-width: 426px) {
+  .projectCard h1 {
+    font-size: 1.3em;
+  }
+  .projectCard {
+    width: 45%;
+  }
+}
+
+@media (max-width: 375px) {
+  .projectCard h1 {
+    font-size: 1.3em;
+  }
+  .projectCard {
+    width: 100%;
+    margin-right: 0px;
+  }
 }
 
 .detailed_card {
@@ -285,6 +527,77 @@ nav {
   width: 65%;
   padding: 5px 0px;
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .detailed_card {
+    width: 70%;
+    margin-top: 65px;
+    margin-left: 15%;
+  }
+  .project-preview h1 {
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 426px) {
+  .detailed_card {
+    width: 80%;
+    margin-top: 35px;
+    margin-left: 10%;
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .project-preview {
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    height: 250px;
+    background-color: #2E2E2E;
+    text-align: center;
+  }
+  .project-preview .imgContainer {
+    width: 60%;
+    margin: 10px auto;
+    margin-bottom: 0px;
+  }
+  .project-description {
+    display: inline-block;
+    margin: 0px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+  .techCard-small img {
+    width: 50%;
+  }
+  .project-description a {
+    bottom: -20px;
+    width: 55%;
+    margin-top: 10px;
+  }
+  .project-preview h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .project-preview h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .project-preview h1 {
+    font-size: 1.4em;
+  }
+}
+
+@media (max-width: 321px) {
+  .project-preview .imgContainer {
+    width: 75%;
+  }
 }
 
 .hire-me {

@@ -30,3 +30,35 @@
     text-align: center;
     
 }
+
+@media(max-width:1024px){
+    .projectCard h1{
+    font-size: 1.5em;
+    }
+}
+
+@media(max-width:768px){
+    .projectCard h1{
+    font-size: 1.3em;
+    }
+    .projectCard {
+        width: 35%;
+    }
+}
+@media(max-width:426px){
+    .projectCard h1{
+    font-size: 1.3em;
+    }
+    .projectCard {
+        width: 45%;
+    }
+}
+@media(max-width:375px){
+    .projectCard h1{
+    font-size: 1.3em;
+    }
+    .projectCard {
+        width: 100%;
+        margin-right:0px ;
+    }
+}
