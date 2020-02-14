@@ -10,41 +10,24 @@ main {
   height: 100vh;
 }
 
-nav {
-  width: 100%;
-  font-size: 1.2em;
+.mainNav {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 22px;
 }
 
-.header {
-  margin: 0px;
-  padding: 35px 50px 0px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.header li {
-  padding: 0px 20px;
-}
-
-.header li a {
+.mainNav a {
   color: white;
   text-decoration: none;
 }
 
-.header li a:hover {
+.mainNav a:hover {
   color: #84C9FB;
-  border-bottom: 2px solid #84C9FB;
 }
 
-@media (max-width: 321px) {
-  .header {
-    padding: 20px;
-  }
+.mainNav .menuIcon:active {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 
 .content {
