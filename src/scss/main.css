@@ -284,87 +284,58 @@ main {
 }
 
 .footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   position: fixed;
-  bottom: 20px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.icons {
-  margin: 13px 80px;
+  bottom: 5%;
+  left: 15%;
 }
 
 .icons img {
   cursor: pointer;
-  width: 35px;
+  width: 65%;
   background-color: white;
-  border-radius: 8px;
+  border-radius: 10px;
 }
 
 .icons span {
-  padding-right: 5px;
+  display: block;
+  padding-bottom: 5px;
+}
+
+.contact {
+  text-align: left;
 }
 
 .contact h4 {
   cursor: default;
-  margin: 0px;
+  margin: 4px;
 }
 
 .contact p {
   cursor: default;
-  margin: 0px;
+  margin: 4px;
 }
 
-@media (max-width: 769px) {
-  .contact h4 {
-    font-size: 1em;
+@media (max-width: 1136px) {
+  .footer {
+    position: fixed;
+    bottom: 5%;
+    left: 6%;
   }
-  .contact p {
-    font-size: 0.9em;
-  }
-  .icons {
-    margin: 13px 50px;
+}
+
+@media (max-width: 770px) {
+  .icons img {
+    width: 45%;
   }
 }
 
 @media (max-width: 426px) {
-  .mobile {
-    display: none;
-  }
-  .contact h4 {
-    font-size: 1em;
-  }
-  .contact p {
-    font-size: 0.9em;
-  }
-  .icons {
-    margin: 20px 30px;
-  }
-  .footer {
-    bottom: 0px;
-  }
-}
-
-@media (max-width: 376px) {
-  .icons {
-    margin: 20px 12px;
-  }
-}
-
-@media (max-width: 321px) {
   .icons img {
-    width: 30px;
+    width: 65%;
   }
-  .icons {
-    margin: 15px 8px;
-  }
-  .contact {
-    margin-left: 15px;
+  .icons span {
+    display: inline-block;
+    padding-top: 10px;
   }
 }
 

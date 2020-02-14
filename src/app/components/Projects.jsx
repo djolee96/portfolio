@@ -4,11 +4,6 @@ import projectOne from "../../images/projectOne.png"
 
 
 class Projects extends React.Component {
-    componentDidMount() {
-        if (this.props.match.url === "/projects") {
-            document.querySelector(".footer").classList.add("mobile")
-        }
-    }
     personalPortfolio = () => {
         this.props.history.push("projects/personal_portfolio")
     }

@@ -1,74 +1,55 @@
 .footer{
-    display: flex;
-    width: 100%;
-    position: fixed;
-    bottom: 20px;
-    justify-content: flex-end;;
+position: fixed;
+bottom: 5%;
+left: 15%;
 }
-.icons {
-    margin:13px 80px;
-}
-.icons img{
+.icons{ 
+    img {
     cursor: pointer;
-    width: 35px;
-    background-color:white;
-    border-radius: 8px;
+    width: 65%;
+    background-color: white;
+    border-radius: 10px;
+    }
+ span {
+    display: block;
+    padding-bottom: 5px;
+    }
 }
-.icons span {
-    padding-right:5px;
-}
+.contact{
+    text-align: left;
 
-.contact h4 {
+    h4 {
     cursor: default;
-    margin:0px;
-}
-.contact p {
+    margin:4px;
+    }
+    p {
     cursor: default;
-    margin:0px;
-}
-
-@media(max-width:769px){
-    .contact h4 {
-        font-size: 1em;
-    }
-    .contact p {
-        font-size: 0.9em;
-    }
-    .icons {
-        margin: 13px 50px;
+    margin:4px;
     }
 }
-@media(max-width:426px){
-    .mobile{
-        display: none;
-    }
-    .contact h4 {
-        font-size: 1em;
-    }
-    .contact p {
-        font-size: 0.9em;
-    }
-    .icons {
-        margin: 20px 30px;
-    }
+@media (max-width:1136px){
     .footer{
-        bottom: 0px;
+        position: fixed;
+        bottom: 5%;
+        left: 6%;
+        }
+}
+@media (max-width:770px){
+    .icons{ 
+        img {
+        width: 45%;  
+        }
     }
 }
-@media(max-width:376px){
-    .icons {
-        margin: 20px 12px;
-    }
-}
+@media (max-width:426px){
+    .icons{ 
+        img {
+        width:65%;  
+        }
+        span {
+            display: inline-block;
+            padding-top: 10px;
+        }
 
-@media(max-width:321px){
-    .icons img {
-        width: 30px;
-    }
-    .icons {
-        margin: 15px 8px;
-    }
-    .contact{
-        margin-left: 15px;
     }
 }
