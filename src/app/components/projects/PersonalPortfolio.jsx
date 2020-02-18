@@ -4,11 +4,7 @@ import react from "../../../icons/techicons/react.png"
 import sass from "../../../icons/techicons/sass.png"
 
 class PersonalPortfolio extends React.Component {
-    componentDidMount() {
-        if (this.props.match.url === "/projects/personal_portfolio") {
-            document.querySelector(".footer").classList.add("mobile")
-        }
-    }
+
     render() {
         return (
             <div className="detailed_card">

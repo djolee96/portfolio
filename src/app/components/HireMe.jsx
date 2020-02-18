@@ -1,7 +1,7 @@
 import React from "react"
-import Input from "./Input"
-import CheckBox from "./CheckBox"
-import DropDown from "./DropDown"
+import Input from "./hire-me/Input"
+import CheckBox from "./hire-me/CheckBox"
+import DropDown from "./hire-me/DropDown"
 
 class HireMe extends React.Component {
     state = {

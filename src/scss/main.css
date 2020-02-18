@@ -6,10 +6,6 @@
   overflow-y: scroll;
 }
 
-main {
-  height: 100vh;
-}
-
 .mainNav {
   margin-top: 20px;
   text-align: center;
@@ -125,7 +121,7 @@ main {
   height: 100vh;
   background-color: #272727;
   display: inline-block;
-  margin-top: -61px;
+  margin-top: -53px;
   position: absolute;
 }
 
@@ -165,66 +161,30 @@ main {
   background-color: #D80629;
 }
 
-.aboutInfo {
-  margin-top: 100px;
-  margin-left: 170px;
-  width: 35%;
-}
-
-.aboutInfo a {
-  text-decoration: none;
-  color: white;
-}
-
-.aboutInfo a:hover {
-  color: #84C9FB;
-}
-
-.aboutTech {
-  margin-top: 100px;
-  margin-left: 170px;
-  width: 35%;
-}
-
-.aboutTech h1 {
-  text-align: center;
-  text-decoration: underline;
-}
-
-.techCard {
-  display: inline-block;
-  width: 33%;
-  text-align: center;
-}
-
 .show {
-  display: inline-block;
+  display: block;
 }
 
 .hide {
   display: none;
 }
 
-@media (max-width: 768px) {
-  .aboutInfo {
-    margin-top: 95px;
-    margin-left: 140px;
-    width: 41%;
-  }
-  .aboutTech {
-    margin-top: 55px;
-    margin-left: 125px;
-    width: 40%;
-  }
-  .aboutTech h1 {
-    font-size: 1.5em;
-  }
-  .techCard p {
-    margin-top: 5px;
-  }
+.InfoPosition {
+  padding-top: 130px;
 }
 
-@media (max-width: 426px) {
+.skillPosition {
+  padding-top: 80px;
+}
+
+@media (max-width: 768px) {
+  .skillPosition {
+    padding-top: 50px;
+  }
+  .skillPosition h1 {
+    text-align: center;
+    margin-bottom: 25px;
+  }
   .sideMenu {
     width: 100%;
     height: 35px;
@@ -265,21 +225,6 @@ main {
   .tech {
     display: inline-block;
     margin: 0px;
-  }
-  .aboutInfo {
-    margin-top: 50px;
-    margin-left: 50px;
-    width: 81%;
-  }
-  .aboutInfo a {
-    text-decoration: none;
-    color: #84C9FB;
-  }
-  .aboutTech {
-    margin-top: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
   }
 }
 
