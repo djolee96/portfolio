@@ -9,7 +9,7 @@ import NavMob from "../components/mobileNav/NavMob"
 class Header extends React.Component {
     render() {
         return (
-            <Container bsPrefix="container mainNav">
+            <Container bsPrefix="container mainNav header">
                 <Row>
 
                     <Col lg={{ span: 4, offset: 8 }} md={{ span: 6, offset: 6 }} sm={12} >

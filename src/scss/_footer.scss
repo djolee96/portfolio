@@ -1,8 +1,8 @@
 .footer{
-position: fixed;
-bottom: 5%;
-left: 15%;
+    margin-bottom: 10px;
 }
+
+
 .icons{ 
     img {
     cursor: pointer;
@@ -27,29 +27,30 @@ left: 15%;
     margin:4px;
     }
 }
-@media (max-width:1136px){
-    .footer{
-        position: fixed;
-        bottom: 5%;
-        left: 6%;
-        }
-}
-@media (max-width:770px){
-    .icons{ 
-        img {
-        width: 45%;  
+
+@media(max-width:770px){
+    .icons{
+        img{
+            width: 45%;
         }
     }
 }
-@media (max-width:426px){
-    .icons{ 
-        img {
-        width:65%;  
-        }
-        span {
-            display: inline-block;
-            padding-top: 10px;
-        }
 
+@media(max-width:426px){
+    .contact{
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .icons{
+        img{
+            width: 40%;
+        }
+        span{
+            display: inline;
+        }
     }
 }
