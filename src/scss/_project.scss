@@ -1,0 +1,20 @@
+.projectCardRow{
+    margin-top: 30px;
+}
+
+.projectCard{
+    margin-top:10px;
+    margin-right: auto;
+    margin-left: auto;
+    a{
+        cursor: pointer;
+    }
+}
+.projectButton{
+    margin-right: 40px;
+}
+@media(max-width:426px){
+    .last{
+        margin-bottom: 10px;
+    }
+}
